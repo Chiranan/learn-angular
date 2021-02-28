@@ -1,6 +1,6 @@
 .Lab {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: rgb(202, 165, 64);
 }
@@ -8,9 +8,9 @@
   text-align: center;
   font-size: xx-large;
   font-weight: bolder;
-  color: blue;
+  color: chartreuse;
   margin: auto;
-  width: 40%;
+  width: 50%;
   border: 3px solid #73ad21;
   padding: 10px;
 }
@@ -20,13 +20,13 @@
   font-weight: bolder;
   color: green;
   margin: auto;
-  width: 40%;
+  width: 50%;
   border: 3px solid #73ad21;
   padding: 10px;
 }
 
 ._buttonLab3 {
-  background-color: #4caf50;
+  background-color: #6b37e6;
   border: none;
   color: white;
   padding: 20px;

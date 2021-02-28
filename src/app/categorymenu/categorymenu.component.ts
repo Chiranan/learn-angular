@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CategorymenuComponent implements OnInit {
   mobiles: string[];
   constructor() {
-    this.mobiles = ['Apple', 'Samsung', 'Vivo', 'Moto'];
+    this.mobiles = ['Moto', 'Vivo', 'iPhon', 'Samsung'];
   }
 
   allmyclass = {}; // กำหนด object ของชื่อ css class

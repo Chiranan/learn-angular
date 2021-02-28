@@ -10,7 +10,7 @@ export class ToDoListComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.tasks = ['example'];
+    this.tasks = ['Angular', 'Typescript'];
   }
   addTask(task) {
     this.tasks.unshift(task);
