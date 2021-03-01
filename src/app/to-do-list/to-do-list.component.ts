@@ -12,11 +12,12 @@ export class ToDoListComponent implements OnInit {
   ngOnInit(): void {
     this.tasks = ['Angular', 'Typescript'];
   }
+  // add task
   addTask(task) {
     this.tasks.unshift(task);
     return false;
   }
-
+  // remove task
   removeTask(task) {
     this.tasks.forEach((element, index) => {
       if (element == task) {
